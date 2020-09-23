@@ -3,11 +3,13 @@
 # PRESS ESC KEY to exit slideshow.
 #
 # Slideshow for MAE hallway displays.
-# Slides go in ~pi/Downloads/
 #
 # Requires feh:
 #   sudo apt-get update
 #   sudo apt-get install feh
 #
-/usr/bin/feh -Y -x -q -D 15 -B black -F -Z -z -r /home/pi/Downloads
+# Root directory for all the slides we want to display:
+SLIDES_ROOT=/home/pi/slides
+
+/usr/bin/feh -Y -x -q -D 15 -B black -F -Z -z -r "$SLIDES_ROOT"
 
