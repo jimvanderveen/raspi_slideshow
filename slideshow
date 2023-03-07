@@ -9,7 +9,9 @@
 #   sudo apt-get install feh
 #
 # Root directory for all the slides we want to display:
-SLIDES_ROOT=/home/pi/slides
+### COVID state of emergency ended 2023-02-28
+### SLIDES_ROOT=/home/pi/slides/COVID_emergency
+SLIDES_ROOT=/home/pi/slides/MAE_default
 
 /usr/bin/feh -Y -x -q -D 15 -B black -F -Z -z -r "$SLIDES_ROOT"
 
